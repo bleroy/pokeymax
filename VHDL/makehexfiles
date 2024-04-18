@@ -1,0 +1,9 @@
+rm -f init.bin
+gcc -Wall init.c -lm -o init && ./init
+./makehex ./init_0.bin init_0.hex "0x000000"
+./makehex ./init_1.bin init_1.hex "0x000000"
+
+rm -f sidwavedata.bin
+gcc -Wall sidwavedata.c -lm -o sidwavedata && ./sidwavedata
+
+

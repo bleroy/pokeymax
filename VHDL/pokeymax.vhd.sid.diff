@@ -1,0 +1,87 @@
+--- pokeymax_119/atari_800xl/atari_chips/pokeyv2/pokeymax.vhd	2020-12-20 15:27:31.900931683 +0100
++++ pokeymax_119/atari_800xl/atari_chips/pokeyv2/pokeymaxsid.vhd	2020-12-20 15:27:31.900931683 +0100
+@@ -55,19 +55,14 @@
+ 		D :  INOUT  STD_LOGIC_VECTOR(7 DOWNTO 0);
+ 		A :  IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
+ 		W_N : IN STD_LOGIC;
+-		IRQ : INOUT STD_LOGIC;
+-		SOD : OUT STD_LOGIC;
+-		ACLK : OUT STD_LOGIC;
+-		BCLK : INOUT STD_LOGIC;
+-		SID : IN STD_LOGIC;
++		RST : IN STD_LOGIC;
+ 		CS0_N : IN STD_LOGIC;
+-		CS1 : IN STD_LOGIC;
+ 
+ 		AUD : OUT STD_LOGIC_VECTOR(4 DOWNTO 1);
+ 
+ 		EXT : INOUT STD_LOGIC_VECTOR(EXT_BITS DOWNTO 1);
+ 
+-		PADDLE : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
++		PADDLE : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+ 		POTRESET_N : OUT STD_LOGIC;
+ 
+ 		IOX_RST : OUT STD_LOGIC;
+@@ -101,6 +96,7 @@
+ 	signal CLK116 : std_logic;
+ 	signal CLK106 : std_logic;
+ 	signal RESET_N : std_logic;
++	signal PLL_RESET_N : std_logic;
+ 
+ 	signal ENABLE_CYCLE : std_logic;
+ 	signal ENABLE_DOUBLE_CYCLE : std_logic;
+@@ -459,7 +455,7 @@
+ 	EXT_INT(0) <= '0';  --force to 0
+ 	EXT_INT(17 downto ext_bits+1) <= (others=>'1');
+ 	EXT_INT(18) <= CS0_N;
+-	EXT_INT(19) <= CS1;
++	EXT_INT(19) <= '0';
+ 	EXT_INT(20) <= '1';
+ 	EXT_INT(ext_bits downto 1) <= EXT;
+ 
+@@ -477,7 +473,9 @@
+ 			 c0 => CLK, --56 ish
+ 			 c1 => CLK116,  --113ish
+ 			 c2 => CLK106,  --106ish
+-			 locked => RESET_N);
++			 locked => PLL_RESET_N);
++
++	RESET_N <= PLL_RESET_N and RST;
+ 
+ 
+ 	AIN(3 downto 0) <= A;
+@@ -652,7 +650,7 @@
+ 		 ADDR => ADDR_IN(3 DOWNTO 0),
+ 		 DATA_IN => WRITE_DATA(7 DOWNTO 0),
+ 		 keyboard_response => KEYBOARD_RESPONSE,
+-		 POT_IN => PADDLE,
++		 POT_IN => "000000"&PADDLE,
+ 		 IRQ_N_OUT => POKEY_IRQ(0),
+ 		 SIO_OUT1 => SIO_TXD,
+ 		 SIO_OUT2 => open,
+@@ -1624,12 +1622,11 @@
+ 	);
+ 
+ -- Wire up pins
+-ACLK <= SIO_CLOCKOUT;
+-BCLK <= '0' when (SIO_CLOCKIN_OE='1' and SIO_CLOCKIN_OUT='0') else 'Z';
+-SIO_CLOCKIN_IN <= BCLK;
++--ACLK <= SIO_CLOCKOUT;
++--BCLK <= '0' when (SIO_CLOCKIN_OE='1' and SIO_CLOCKIN_OUT='0') else 'Z';
++SIO_CLOCKIN_IN <= '0';
+ 
+-SOD <= '0' when SIO_TXD='0' else 'Z';
+-SIO_RXD <= SID;
++SIO_RXD <= '1';
+ 
+ 
+ --1->pin37
+@@ -1640,7 +1637,7 @@
+ AUD(3) <= AUDIO_2_SIGMADELTA;
+ AUD(4) <= AUDIO_3_SIGMADELTA;
+ 
+-IRQ <= '0' when (IRQ_EN_REG='1' and (and_reduce(POKEY_IRQ)='0')) or (IRQ_EN_REG='0' and POKEY_IRQ(0)='0') or (SAMPLE_IRQ='1')  else 'Z';
++--IRQ <= '0' when (IRQ_EN_REG='1' and (and_reduce(POKEY_IRQ)='0')) or (IRQ_EN_REG='0' and POKEY_IRQ(0)='0') or (SAMPLE_IRQ='1')  else 'Z';
+ 
+ D <= BUS_DATA when BUS_OE='1' else (others=>'Z');
+ 

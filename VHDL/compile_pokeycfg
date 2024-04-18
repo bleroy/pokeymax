@@ -1,0 +1,1 @@
+~/fpga/svn/cc65/bin/cl65 -O -t atari pokeycfg.c -o pokeycfg.xex

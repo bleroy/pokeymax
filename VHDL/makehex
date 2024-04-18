@@ -1,0 +1,1 @@
+objcopy --change-address $3 -I binary -O ihex $1 $2

@@ -1,0 +1,180 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Intel and sold by Intel or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+# Date created = 19:35:48  June 01, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		pokeymax_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name TOP_LEVEL_ENTITY pokeymax
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:35:48  JUNE 01, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE UFBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 169
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 8
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_location_assignment PIN_B1 -to PHI2    #B1,LIN0,LVL8,PHI
+set_location_assignment PIN_A2 -to D[7]   #A2,LIN1,LVL7,D7
+set_location_assignment PIN_B2 -to D[6]   #B2,LIN2,LVL6,D6
+set_location_assignment PIN_A3 -to D[5]   #A3,LIN3,LVL5,D5
+set_location_assignment PIN_B3 -to D[4]   #B3,LIN4,LVL4,D4
+set_location_assignment PIN_A4 -to D[3]   #A4,LIN5,LVL3,D3
+set_location_assignment PIN_B4 -to CS0_N  #B4,LIN6,LVL21,CS0_N
+set_location_assignment PIN_A5 -to EXT[4]   #A5,LIN7,LVL9,CS1
+set_location_assignment PIN_B5 -to RST    #B5,LIN8,LVL14,IRQ_N
+set_location_assignment PIN_A6 -to W_N    #A6,LIN9,LVL15,RW
+set_location_assignment PIN_A8 -to A[3]   #A8,LIN13,LVL16,A3
+set_location_assignment PIN_A10 -to D[2]  #A10,LIN15,LVL2,D2
+set_location_assignment PIN_B10 -to D[1]  #B10,LIN16,LVL1,D1
+set_location_assignment PIN_A11 -to D[0]  #A11,LIN17,LVL0,D0
+set_location_assignment PIN_B11 -to A[0]  #B11,LIN18,LVL19,A0
+set_location_assignment PIN_A12 -to EXT[1] #A12,LIN19,LVL23,EXT3
+set_location_assignment PIN_B12 -to A[1]  #B12,LIN20,LVL18,A1
+set_location_assignment PIN_B13 -to EXT[2] #B13,LIN21,LVL22,EXT2
+set_location_assignment PIN_C11 -to AUD[1] #C11,AUD1,AUDF1,AUD
+set_location_assignment PIN_D11 -to AUD[3] #D11,AUD2,AUDF4,AUDEXT2
+set_location_assignment PIN_C12 -to AUD[4] #C12,AUD3,AUDF2,AUDEXT3
+set_location_assignment PIN_D12 -to AUD[2] #D12,AUD4,AUDF3,AUDEXT1
+set_location_assignment PIN_C13 -to A[2]   #C13,LIN22,LVL17,A2
+set_location_assignment PIN_D13 -to EXT[3] #D13,LIN23,LVL20,EXT1
+set_location_assignment PIN_N3 -to PADDLE[1]  #N3,PIN2,POT6,P1
+set_location_assignment PIN_N7 -to PADDLE[0]  #N7,PIN6,POT2,P0
+set_location_assignment PIN_N10 -to POTRESET_N  #N10,POTRESET_N,
+set_location_assignment PIN_N11 -to IOX_RST   #N11,IOX_RST,
+set_location_assignment PIN_N12 -to IOX_SDA   #N12,IOX_SDA,
+set_location_assignment PIN_M13 -to IOX_SCL   #M13,IOX_SCL,
+set_location_assignment PIN_L13 -to IOX_INT   #L13,IOX_INT,
+set_location_assignment PIN_G9 -to CLK_SLOW
+set_location_assignment PIN_H8 -to CLK_OUT
+
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to IOX_RST
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to IOX_INT
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to IOX_SDA
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to IOX_SCL
+
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to PADDLE[0]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to PADDLE[1]
+
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to AUD[1]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to AUD[2]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to AUD[3]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to AUD[4]
+
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name FLOW_ENABLE_POWER_ANALYZER ON
+set_global_assignment -name POWER_DEFAULT_INPUT_IO_TOGGLE_RATE "12.5 %"
+
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF
+set_global_assignment -name STRATIXV_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name ENABLE_SIGNALTAP ON
+set_global_assignment -name USE_SIGNALTAP_FILE output_files/stp1.stp
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MINIMUM CURRENT" -to CLK_OUT
+
+set_global_assignment -name OPTIMIZATION_MODE BALANCED
+set_global_assignment -name VHDL_FILE flash_controller.vhd
+set_global_assignment -name VHDL_FILE stereo_detect.vhd
+set_global_assignment -name VHDL_FILE iox_glue.vhdl
+set_global_assignment -name VHDL_FILE i2c_master.vhd
+set_global_assignment -name VHDL_FILE slave_timing_6502.vhd
+set_global_assignment -name SDC_FILE pokeymax.sdc
+set_global_assignment -name VHDL_FILE complete_address_decoder.vhdl
+set_global_assignment -name VHDL_FILE syncreset_enable_divider.vhd
+set_global_assignment -name VHDL_FILE delay_line.vhdl
+set_global_assignment -name VHDL_FILE latch_delay_line.vhdl
+set_global_assignment -name VHDL_FILE sigmadelta_1storder.vhd
+set_global_assignment -name VHDL_FILE sigmadelta_2ndorder.vhd
+set_global_assignment -name VHDL_FILE filtered_sigmadelta.vhd
+set_global_assignment -name VHDL_FILE mult_infer.vhdl
+set_global_assignment -name VHDL_FILE generic_ram_infer.vhdl
+set_global_assignment -name VHDL_FILE simple_low_pass_filter.vhdl
+set_global_assignment -name VHDL_FILE pokey_poly_17_9.vhdl
+set_global_assignment -name VHDL_FILE pokey_poly_5.vhdl
+set_global_assignment -name VHDL_FILE pokey_poly_4.vhdl
+set_global_assignment -name VHDL_FILE pokey_noise_filter.vhdl
+set_global_assignment -name VHDL_FILE pokey_mixer_mux.vhdl
+set_global_assignment -name VHDL_FILE pokey_mixer.vhdl
+set_global_assignment -name VHDL_FILE pokey_keyboard_scanner.vhdl
+set_global_assignment -name VHDL_FILE pokey_countdown_timer.vhdl
+set_global_assignment -name VHDL_FILE pokey.vhdl
+set_global_assignment -name VHDL_FILE phi_mult.vhdl
+set_global_assignment -name VHDL_FILE synchronizer.vhdl
+set_global_assignment -name VHDL_FILE audiotypes.vhdl
+set_global_assignment -name VHDL_FILE mixer.vhdl
+set_global_assignment -name VHDL_FILE pokeymax.vhd
+set_global_assignment -name VHDL_FILE PSG/envelope.vhdl
+set_global_assignment -name VHDL_FILE PSG/noise.vhdl
+set_global_assignment -name VHDL_FILE PSG/top.vhdl
+set_global_assignment -name VHDL_FILE PSG/freqdiv.vhdl
+set_global_assignment -name VHDL_FILE PSG/mixer.vhdl
+set_global_assignment -name VHDL_FILE PSG/volume.vhdl
+set_global_assignment -name VHDL_FILE PSG/volume_profile.vhdl
+set_global_assignment -name VHDL_FILE SID/top.vhdl
+set_global_assignment -name VHDL_FILE SID/oscillator.vhdl
+set_global_assignment -name VHDL_FILE SID/wavegen.vhdl
+set_global_assignment -name VHDL_FILE SID/envelope.vhdl
+set_global_assignment -name VHDL_FILE SID/envelope_tapmatch.vhdl
+set_global_assignment -name VHDL_FILE SID/amplitudeModulator.vhdl
+set_global_assignment -name VHDL_FILE SID/preFilterSum.vhdl
+set_global_assignment -name VHDL_FILE SID/filter.vhdl
+set_global_assignment -name VHDL_FILE SID/f_distortion.vhdl
+set_global_assignment -name VHDL_FILE SID/f_distortion_mux.vhdl
+set_global_assignment -name VHDL_FILE SID/postFilterSum.vhdl
+set_global_assignment -name VHDL_FILE sample/channel.vhdl
+set_global_assignment -name VHDL_FILE sample/adpcm.vhdl
+set_global_assignment -name VHDL_FILE sample/top.vhdl
+set_global_assignment -name VHDL_FILE covox/top.vhdl
+set_global_assignment -name QIP_FILE int_osc/synthesis/int_osc.qip
+set_global_assignment -name QIP_FILE pll.qip
+set_global_assignment -name QIP_FILE flash/synthesis/flash.qip
+
+
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,2 @@
+quartus_cpf --convert ../convert_secure_sidmax.cof
+../modifypof_08 sidmax ./output_files/sidmax.pof

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="attributes" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_misc" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="divider16" type="divider">
+      <obj_property name="label">mix</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/mix_a/bit_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bit_out</obj_property>
+      <obj_property name="ObjectShortName">bit_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/mix_b/bit_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bit_out</obj_property>
+      <obj_property name="ObjectShortName">bit_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/mix_c/bit_out" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bit_out</obj_property>
+      <obj_property name="ObjectShortName">bit_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider20" type="divider">
+      <obj_property name="label">threshvscount</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/channel_a_ticker/count_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">count_reg[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/channel_a_ticker/threshold" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">threshold[11:0]</obj_property>
+      <obj_property name="ObjectShortName">threshold[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/channel_b_ticker/count_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">count_reg[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/channel_b_ticker/threshold" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">threshold[11:0]</obj_property>
+      <obj_property name="ObjectShortName">threshold[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/channel_c_ticker/count_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count_reg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">count_reg[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/channel_c_ticker/threshold" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">threshold[11:0]</obj_property>
+      <obj_property name="ObjectShortName">threshold[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider26" type="divider">
+      <obj_property name="label">clocks</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/core_tick" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">core_tick</obj_property>
+      <obj_property name="ObjectShortName">core_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/channel_a_tick" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">channel_a_tick</obj_property>
+      <obj_property name="ObjectShortName">channel_a_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/channel_b_tick" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">channel_b_tick</obj_property>
+      <obj_property name="ObjectShortName">channel_b_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/channel_c_tick" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">channel_c_tick</obj_property>
+      <obj_property name="ObjectShortName">channel_c_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/noise_tick" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">noise_tick</obj_property>
+      <obj_property name="ObjectShortName">noise_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider34" type="divider">
+      <obj_property name="label">envelope</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/envelope/envelope_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">envelope_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">envelope_reg[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider36" type="divider">
+      <obj_property name="label">vol</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/vol_a/vol_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vol_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">vol_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/vol_b/vol_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vol_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">vol_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/vol_c/vol_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">vol_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">vol_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider30" type="divider">
+      <obj_property name="label">audio</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/audio1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">audio1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/top_inst/audio2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">audio2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">audio2[15:0]</obj_property>
+   </wvobject>
+</wave_config>

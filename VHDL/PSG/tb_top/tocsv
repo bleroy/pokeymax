@@ -1,0 +1,1 @@
+cat sim/envelope.txt  | perl -e 'while (<>){s/\s+$//;s/\s+/,/g;print "$_\n";}' > envelope.csv

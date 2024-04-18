@@ -1,0 +1,5 @@
+~/fpga/svn/cc65/bin/cl65 -O -t c64 -DC64 sidcfg.c -o sidcfg.prg 
+
+c1541 -format "sidmaxcf","01" d81 sidmaxcf.d81
+c1541 sidmaxcf.d81 -write sidcfg.prg 
+c1541 sidmaxcf.d81 -write build_sidmax_10M08_full/output_files/core.bin

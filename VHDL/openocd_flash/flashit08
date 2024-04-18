@@ -1,0 +1,1 @@
+openocd -f max10M08SC.cfg -c init -c "svf -quiet pokeymax.svf" -c shutdown

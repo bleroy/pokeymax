@@ -1,0 +1,8 @@
+TYPE=$1
+cp $2 ${TYPE}_orig.pof
+
+./swapbits sidwavedata.bin sidwavedata_swap.bin
+dd if=sidwavedata_swap.bin bs=1 seek=256168 count=65536 of=$2 conv=notrunc
+truncate -s -2 $2
+HASHCODE=`../rehashr/rehash $2 -norecur -none -fcs16 | grep FCS | sed -e 's/.*:\s*//'`
+../addhash.pl $2 $HASHCODE

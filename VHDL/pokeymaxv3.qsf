@@ -1,0 +1,312 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Intel and sold by Intel or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+# Date created = 19:35:48  June 01, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		pokeymax_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name TOP_LEVEL_ENTITY pokeymax
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:35:48  JUNE 01, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE UFBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 169
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 8
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_location_assignment PIN_B3 -to PHI2   #B3,LVLA4,PHI
+set_location_assignment PIN_A3 -to D[7]   #A3,LVLA3,D7
+set_location_assignment PIN_B2 -to D[6]   #B2,LVLA2,D6
+set_location_assignment PIN_A2 -to D[5]   #A2,LVLA1,LVL5,D5
+set_location_assignment PIN_B1 -to D[4]   #B1,LVLA0,D4
+set_location_assignment PIN_A4 -to D[3]   #A4,LVLA5,D3
+set_location_assignment PIN_A11 -to D[2]  #A11,LVLA17,D2
+set_location_assignment PIN_B10 -to D[1]  #B10,LVLA16,D1
+set_location_assignment PIN_A10 -to D[0]  #A10,LVLA15,D0
+set_location_assignment PIN_A5 -to CS0_N  #A5,LVLA,CS0_N
+set_location_assignment PIN_B6 -to CS1    #B6,LVLA10,CS1
+set_location_assignment PIN_B4 -to IRQ    #B4,LVLA6,IRQ_N
+set_location_assignment PIN_B5 -to W_N    #B5,LVLA8,RW
+set_location_assignment PIN_A7 -to SID    #A7,LVLA11,SID
+set_location_assignment PIN_A9 -to SOD    #A9,LVLA14,SOD
+set_location_assignment PIN_A8 -to ACLK   #A8,LVLA13,ACLK
+set_location_assignment PIN_B7 -to BCLK   #B7,LVLA12,BCLK
+set_location_assignment PIN_B11 -to A[0]  #B11,LVLA18,A0
+set_location_assignment PIN_B12 -to A[1]  #B12,LVLA20,A1
+set_location_assignment PIN_C13 -to A[2]   #C13,LVLA22,A2
+set_location_assignment PIN_A6 -to A[3]   #A6,LVLA9,A3
+
+set_location_assignment PIN_N2 -to PADDLE[5]  #11=N2 POT7 p5
+set_location_assignment PIN_N3 -to PADDLE[1]  #15=N3 POT6 p1
+set_location_assignment PIN_N4 -to PADDLE[4]  #10=N4 POT5 p4
+set_location_assignment PIN_N5 -to PADDLE[7]  #9 =N5 POT4 p7
+set_location_assignment PIN_N6 -to PADDLE[6]  #8 =N6 POT3 p6
+set_location_assignment PIN_N7 -to PADDLE[0]  #14=N7 POT2 p0
+set_location_assignment PIN_N8 -to PADDLE[3]  #13=N8 POT1 p3 
+set_location_assignment PIN_N9 -to PADDLE[2]  #12=N9 POT0 p2
+set_location_assignment PIN_M2 -to POTRESET_N  #POTRESET - M2
+
+set_location_assignment PIN_C11 -to AUD[1] #AUD1 - C11
+set_location_assignment PIN_D11 -to AUD[3] #AUD3 - D11
+set_location_assignment PIN_C12 -to AUD[2] #AUD2 - C12
+set_location_assignment PIN_D12 -to AUD[4] #AUD4 - D12
+
+set_location_assignment PIN_M3 -to IOX_RST   #IOX_RST - M3
+set_location_assignment PIN_M4 -to IOX_SDA   #IOX_SDA - M4
+set_location_assignment PIN_M5 -to IOX_SCL   #IOX_SCL - M5
+set_location_assignment PIN_M7 -to IOX_INT   #IOX_INT - M7
+
+set_location_assignment PIN_G9 -to CLK_SLOW  #CLK2 - G9
+set_location_assignment PIN_H8 -to CLK_OUT   #OUT  - H8
+set_location_assignment PIN_H6 -to CLK0      #CLK0 - H6
+set_location_assignment PIN_H4 -to CLK1      #CLK1 - H4
+
+set_location_assignment PIN_A12 -to EXT[1] #A12,LVLA19,EXT3
+set_location_assignment PIN_B13 -to EXT[2] #B13,LVLA21,EXT2
+set_location_assignment PIN_D13 -to EXT[3] #D13,LVLA23,EXT1
+set_location_assignment PIN_M9 -to EXT[4] #LVLB0  EXT4  - M9
+set_location_assignment PIN_M10 -to EXT[5] #LVLB1  EXT5  - M10
+set_location_assignment PIN_N10 -to EXT[6] #LVLB2  EXT6  - N10
+set_location_assignment PIN_M11 -to EXT[7] #LVLB3  EXT7  - M11
+set_location_assignment PIN_N11 -to EXT[8] #LVLB4  EXT8  - N11
+set_location_assignment PIN_M12 -to EXT[9] #LVLB5  EXT9  - M12
+set_location_assignment PIN_N12 -to EXT[10] #LVLB6  EXT10 - N12
+set_location_assignment PIN_M13 -to EXT[11] #LVLB7  EXT11 - M13
+
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to IOX_RST
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to IOX_INT
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to IOX_SDA
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to IOX_SCL
+
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to PADDLE[0]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to PADDLE[1]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to PADDLE[2]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to PADDLE[3]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to PADDLE[4]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to PADDLE[5]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to PADDLE[6]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to PADDLE[7]
+
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to AUD[1]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to AUD[2]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to AUD[3]
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MAXIMUM CURRENT" -to AUD[4]
+
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name FLOW_ENABLE_POWER_ANALYZER ON
+set_global_assignment -name POWER_DEFAULT_INPUT_IO_TOGGLE_RATE "12.5 %"
+
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name ENABLE_BOOT_SEL_PIN OFF
+set_global_assignment -name STRATIXV_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name ENABLE_SIGNALTAP ON
+set_global_assignment -name USE_SIGNALTAP_FILE output_files/stp1.stp
+set_instance_assignment -name CURRENT_STRENGTH_NEW "MINIMUM CURRENT" -to CLK_OUT
+
+set_instance_assignment -name IO_STANDARD "3.3 V SCHMITT TRIGGER" -to SID
+set_instance_assignment -name IO_STANDARD "3.3 V SCHMITT TRIGGER" -to BCLK
+
+set_global_assignment -name OPTIMIZATION_MODE BALANCED
+set_global_assignment -name VHDL_FILE flash_controller.vhd
+set_global_assignment -name VHDL_FILE stereo_detect.vhd
+set_global_assignment -name VHDL_FILE iox_glue.vhdl
+set_global_assignment -name VHDL_FILE i2c_master.vhd
+set_global_assignment -name VHDL_FILE slave_timing_6502.vhd
+set_global_assignment -name SDC_FILE pokeymax.sdc
+set_global_assignment -name VHDL_FILE complete_address_decoder.vhdl
+set_global_assignment -name VHDL_FILE syncreset_enable_divider.vhd
+set_global_assignment -name VHDL_FILE enable_divider.vhdl
+set_global_assignment -name VHDL_FILE delay_line.vhdl
+set_global_assignment -name VHDL_FILE wide_delay_line.vhdl
+set_global_assignment -name VHDL_FILE latch_delay_line.vhdl
+set_global_assignment -name VHDL_FILE sigmadelta_1storder.vhd
+set_global_assignment -name VHDL_FILE sigmadelta_2ndorder.vhd
+set_global_assignment -name VHDL_FILE filtered_sigmadelta.vhd
+set_global_assignment -name VHDL_FILE generic_ram_infer.vhdl
+set_global_assignment -name VHDL_FILE simple_low_pass_filter.vhdl
+set_global_assignment -name VHDL_FILE pokey/pokey_poly_17_9.vhdl
+set_global_assignment -name VHDL_FILE pokey/pokey_poly_5.vhdl
+set_global_assignment -name VHDL_FILE pokey/pokey_poly_4.vhdl
+set_global_assignment -name VHDL_FILE pokey/pokey_noise_filter.vhdl
+set_global_assignment -name VHDL_FILE pokey/pokey_mixer_mux.vhdl
+set_global_assignment -name VHDL_FILE pokey/pokey_mixer.vhdl
+set_global_assignment -name VHDL_FILE pokey/pokey_keyboard_scanner.vhdl
+set_global_assignment -name VHDL_FILE pokey/pokey_countdown_timer.vhdl
+set_global_assignment -name VHDL_FILE pokey/pokey.vhdl
+set_global_assignment -name VHDL_FILE phi_mult.vhdl
+set_global_assignment -name VHDL_FILE synchronizer.vhdl
+set_global_assignment -name VHDL_FILE audiotypes.vhdl
+set_global_assignment -name VHDL_FILE mixer.vhdl
+set_global_assignment -name VHDL_FILE clockgen.vhd
+set_global_assignment -name VHDL_FILE spdif_transmitter.vhdl
+set_global_assignment -name VHDL_FILE ps2_keyboard.vhdl
+set_global_assignment -name VHDL_FILE ps2_to_atari800.vhdl
+set_global_assignment -name VHDL_FILE pokeymax.vhd
+set_global_assignment -name VHDL_FILE PSG/envelope.vhdl
+set_global_assignment -name VHDL_FILE PSG/noise.vhdl
+set_global_assignment -name VHDL_FILE PSG/top.vhdl
+set_global_assignment -name VHDL_FILE PSG/freqdiv.vhdl
+set_global_assignment -name VHDL_FILE PSG/mixer.vhdl
+set_global_assignment -name VHDL_FILE PSG/volume.vhdl
+set_global_assignment -name VHDL_FILE PSG/volume_profile.vhdl
+set_global_assignment -name VHDL_FILE SID/top.vhdl
+set_global_assignment -name VHDL_FILE SID/oscillator.vhdl
+set_global_assignment -name VHDL_FILE SID/wavegen.vhdl
+set_global_assignment -name VHDL_FILE SID/envelope.vhdl
+set_global_assignment -name VHDL_FILE SID/envelope_tapmatch.vhdl
+set_global_assignment -name VHDL_FILE SID/amplitudeModulator.vhdl
+set_global_assignment -name VHDL_FILE SID/preFilterSum.vhdl
+set_global_assignment -name VHDL_FILE SID/filter.vhdl
+set_global_assignment -name VHDL_FILE SID/f_distortion.vhdl
+set_global_assignment -name VHDL_FILE SID/f_distortion_mux.vhdl
+set_global_assignment -name VHDL_FILE SID/postFilterSum.vhdl
+set_global_assignment -name VHDL_FILE sample/channel.vhdl
+set_global_assignment -name VHDL_FILE sample/adpcm.vhdl
+set_global_assignment -name VHDL_FILE sample/top.vhdl
+set_global_assignment -name VHDL_FILE covox/top.vhdl
+set_global_assignment -name QIP_FILE int_osc/synthesis/int_osc.qip
+set_global_assignment -name QIP_FILE pll.qip
+set_global_assignment -name QIP_FILE flash/synthesis/flash.qip
+
+
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+
+
+#AUD1
+#AUD2
+#AUD3
+#AUD4
+#AUDIN3
+#AUDIN4
+#GND
+#LVLA19 EXT1  - A12
+#LVLA21 EXT2  - B13
+#LVLA23 EXT3  - D13
+#LVLB0  EXT4  - M9
+#LVLB1  EXT5  - M10
+#LVLB2  EXT6  - N10
+#LVLB3  EXT7  - M11
+#LVLB4  EXT8  - N11
+#LVLB5  EXT9  - M12
+#LVLB6  EXT10 - N12
+#LVLB7  EXT11 - M13
+
+#1 =GND
+#2 =LVLA5 - A4
+#3 =LVLA0 - B1
+#4 =LVLA1 - A2
+#5 =LVLA2 - B2
+#6 =LVLA3 - A3
+#7 =LVLA4 - B3
+#8 =POT3 p6
+#9 =POT4 p7
+#10=POT5 p4
+#11=POT7 p5
+#12=POT0 p2
+#13=POT1 p3 
+#14=POT2 p0
+#15=POT6 p1
+#16=KR2
+#17=5V
+#18=K5
+#19=K4
+#20=K3
+
+#40=LVLA17 - A11
+#39=LVLA16 - B10
+#38=LVLA15 - A10
+#37=AUDF1 
+#36=LVLA18 - B11
+#35=LVLA20 - B12
+#34=LVLA22 - C13
+#33=LVLA9  - A6
+#32=LVLA8  - B5
+#31=LVLA10 - B6
+#30=LVLA7  - A5
+#29=LVLA6  - B4
+#28=LVLA14 - A9
+#27=LVLA13 - A8
+#26=LVLA12 - B7
+#25=KR1
+#24=LVLA11 - A7
+#23=K0
+#22=K1
+#21=K2
+
+#IOX
+#IOX_RST - M3
+#IOX_SDA - M4
+#IOX_SCL - M5
+#IOX_INT - M7
+
+#POT
+#POTRESET - M2
+#PIN3 - N2 - POT7
+#PIN2 - N3 - POT6
+#PIN0 - N4 - POT5
+#PIN1 - N5 - POT4
+#PIN7 - N6 - POT3
+#PIN6 - N7 - POT2
+#PIN4 - N8 - POT1
+#PIN5 - N9 - POT0
+
+#AUD - straight...
+#AUD1 - C11
+#AUD3 - D11
+#AUD2 - C12
+#AUD4 - D12
+
+#CLK
+#OUT  - H8
+#CLK2 - G9
+#CLK0 - H6
+#CLK1 - H4
+
+

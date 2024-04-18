@@ -1,0 +1,43 @@
+--- pokeymax.vhd	2021-09-01 21:35:50.610031442 +0200
++++ pokeymaxv1.vhd	2021-09-01 21:50:36.284379953 +0200
+@@ -75,7 +75,6 @@
+ 		ACLK : OUT STD_LOGIC;
+ 		BCLK : INOUT STD_LOGIC;
+ 		SID : IN STD_LOGIC;
+-		CS0_N : IN STD_LOGIC;
+ 		CS1 : IN STD_LOGIC;
+ 
+ 		AUD : OUT STD_LOGIC_VECTOR(4 DOWNTO 1);
+@@ -83,7 +82,6 @@
+ 		EXT : INOUT STD_LOGIC_VECTOR(EXT_BITS DOWNTO 1);
+ 
+ 		PADDLE : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+-		POTRESET_N : OUT STD_LOGIC;
+ 
+ 		IOX_RST : OUT STD_LOGIC;
+ 		IOX_INT : IN STD_LOGIC;
+@@ -530,7 +528,7 @@
+ 
+ 	EXT_INT(0) <= '0';  --force to 0
+ 	EXT_INT(17 downto ext_bits+1) <= (others=>'1');
+-	EXT_INT(18) <= CS0_N;
++	--EXT_INT(18) <= CS0_N;
+ 	EXT_INT(19) <= CS1;
+ 	EXT_INT(20) <= '1';
+ 	EXT_INT(ext_bits downto 1) <= EXT;
+@@ -1816,6 +1814,8 @@
+ 
+ 		int=>iox_int,
+ 
++		pot_reset=>potreset,
++
+ 		keyboard_scan=>keyboard_scan,
+ 		keyboard_scan_update=>keyboard_scan_update,
+ 		keyboard_response=>iox_keyboard_response,
+@@ -1888,6 +1888,4 @@
+ 
+ D <= BUS_DATA when BUS_OE='1' else (others=>'Z');
+ 
+-POTRESET_N <= not(POTRESET) when ext_clk_enable=0 else '1';
+-
+ END vhdl;
