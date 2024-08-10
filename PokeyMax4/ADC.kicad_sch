@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "b20ca988-7da3-4125-9ba1-a1ab1d1eaf4b")
+	(uuid "a67d4fea-7cce-43ef-8d8a-68b50cb41279")
 	(paper "A4")
 	(lib_symbols
 		(symbol "pokeymax4-eagle-import:C-EUC0402"
@@ -296,117 +296,7 @@
 		(at 182.88 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "331f190f-d149-4484-8f3e-7b532873e7e5")
-	)
-	(wire
-		(pts
-			(xy 182.88 109.22) (xy 182.88 106.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0b80108e-4e93-4dbc-a59d-783862c3ff74")
-	)
-	(wire
-		(pts
-			(xy 96.52 86.36) (xy 91.44 86.36)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0cd70be0-e92f-4aa4-bfe3-6122429e3077")
-	)
-	(wire
-		(pts
-			(xy 106.68 86.36) (xy 109.22 86.36)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1354e6df-76b5-4d32-9907-4e63c3f89db2")
-	)
-	(wire
-		(pts
-			(xy 137.16 119.38) (xy 137.16 127)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1b7870cc-167c-4565-8494-30b83ece8ce9")
-	)
-	(wire
-		(pts
-			(xy 137.16 106.68) (xy 154.94 106.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "42171391-abc9-460c-a8bc-c69f25f0ef12")
-	)
-	(wire
-		(pts
-			(xy 137.16 101.6) (xy 182.88 101.6)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "51df62e9-b8b4-4323-a2cb-b919011f3253")
-	)
-	(wire
-		(pts
-			(xy 167.64 106.68) (xy 182.88 106.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "52ca705b-c97c-4c23-b468-29a3b21e1780")
-	)
-	(wire
-		(pts
-			(xy 137.16 109.22) (xy 182.88 109.22)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6b81878e-d5ce-4561-97d9-f1b69c025a58")
-	)
-	(wire
-		(pts
-			(xy 137.16 91.44) (xy 137.16 81.28)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "720159e0-d7de-4b67-a6a7-6e8882ea6f46")
-	)
-	(wire
-		(pts
-			(xy 190.5 106.68) (xy 208.28 106.68)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a709eb91-f14f-464a-b185-55f587fe0632")
-	)
-	(wire
-		(pts
-			(xy 109.22 99.06) (xy 109.22 96.52)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bf88f07b-cdaa-431a-8828-d29a32ce840c")
+		(uuid "1a540a29-805c-445a-9d5d-2413da548a90")
 	)
 	(wire
 		(pts
@@ -416,7 +306,27 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "d9df7640-2a58-4fce-a8cd-4991bbb5f164")
+		(uuid "0502e7f7-2c0b-4806-9e31-96555e41be6b")
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 137.16 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "11576bdf-865c-4248-b78e-408f00667caf")
+	)
+	(wire
+		(pts
+			(xy 96.52 86.36) (xy 91.44 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1ca9c26d-16e6-4127-8409-7249686224d4")
 	)
 	(wire
 		(pts
@@ -426,18 +336,97 @@
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "ff6860a6-d5ea-4188-83f2-9db3e575cfbe")
+		(uuid "61fda2fb-2c90-477d-ad47-9834619c1d87")
 	)
-	(text "FPGA ADC support"
-		(exclude_from_sim no)
-		(at 86.36 106.68 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 137.16 119.38) (xy 137.16 127)
 		)
-		(uuid "32be3554-d212-40f0-b3a3-00c284b050f0")
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "67b84f5e-9570-4fa2-a7ac-cdc039f644a7")
+	)
+	(wire
+		(pts
+			(xy 106.68 86.36) (xy 109.22 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6b5b0268-6037-478f-961d-aec41989f1e6")
+	)
+	(wire
+		(pts
+			(xy 137.16 109.22) (xy 182.88 109.22)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "88568779-b9ac-4b2e-b031-aa29ca95c265")
+	)
+	(wire
+		(pts
+			(xy 137.16 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "90d27c70-a481-4d7e-bb89-39dae747335e")
+	)
+	(wire
+		(pts
+			(xy 137.16 101.6) (xy 182.88 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9d13ce56-528f-4e03-9bdd-9ffb9e12f079")
+	)
+	(wire
+		(pts
+			(xy 167.64 106.68) (xy 182.88 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9ffd4a82-76c4-4e77-9f94-60c612b40e8c")
+	)
+	(wire
+		(pts
+			(xy 182.88 109.22) (xy 182.88 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e8ff6c99-6b95-4898-aeaa-647c006b8369")
+	)
+	(wire
+		(pts
+			(xy 109.22 99.06) (xy 109.22 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ef7d0a87-b2fc-4cad-a7e1-aadd90b2b447")
+	)
+	(wire
+		(pts
+			(xy 190.5 106.68) (xy 208.28 106.68)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ff37a260-3516-4577-b5cb-49762616f84a")
 	)
 	(text "ADC IN BIAS"
 		(exclude_from_sim no)
@@ -448,33 +437,22 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "87e9cb3e-d94a-43b0-89dc-dd93707afcb6")
+		(uuid "4337f36c-860d-40e2-91b6-63c9b03c276a")
 	)
-	(global_label "LINB9"
-		(shape bidirectional)
-		(at 137.16 106.68 180)
-		(fields_autoplaced yes)
+	(text "FPGA ADC support"
+		(exclude_from_sim no)
+		(at 86.36 106.68 0)
 		(effects
 			(font
-				(size 1.2446 1.2446)
+				(size 1.778 1.5113)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "343e476d-2375-4fb4-ae33-34d7e3712724")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.8118 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "df4219cd-d160-47c4-b81f-32bcd89e8828")
 	)
-	(global_label "AUD_IN"
+	(global_label "ADC_TX"
 		(shape bidirectional)
-		(at 208.28 106.68 0)
+		(at 91.44 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -482,9 +460,9 @@
 			)
 			(justify left)
 		)
-		(uuid "3934f749-6135-4269-b797-02776eda67ae")
+		(uuid "12cb7969-1c2c-4b3a-a3c5-a6141f12cdb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.7544 106.68 0)
+			(at 102.0921 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -494,31 +472,9 @@
 			)
 		)
 	)
-	(global_label "LVLB9"
-		(shape bidirectional)
-		(at 167.64 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "43712ed8-6e37-4d31-bd11-856882a5602f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.1141 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 137.16 127 0)
+		(at 137.16 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -526,9 +482,31 @@
 			)
 			(justify left)
 		)
-		(uuid "7ed3f28a-c14d-4631-a2c0-cad3bd9ff88f")
+		(uuid "390a4765-e21a-41de-b7b5-8dad12b1d20b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.9673 127 0)
+			(at 144.9673 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LINB9"
+		(shape bidirectional)
+		(at 139.7 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "4577a3f0-a4eb-4bf1-b75a-497b5690a106")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.0482 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -540,7 +518,7 @@
 	)
 	(global_label "2V5"
 		(shape bidirectional)
-		(at 137.16 81.28 0)
+		(at 137.16 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -548,9 +526,75 @@
 			)
 			(justify left)
 		)
-		(uuid "8798c2dc-d8c7-43e6-a13a-c025d0c227dd")
+		(uuid "4d84b3b2-126a-4c8f-be6b-67dad9fa30f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.6116 81.28 0)
+			(at 144.6116 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUD_IN"
+		(shape bidirectional)
+		(at 195.58 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "66f4e615-1d9d-473d-96a9-5afcd70b87e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.0544 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ADC_RX"
+		(shape bidirectional)
+		(at 106.68 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "92879b54-fbb3-4159-88e8-204f7787f3ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.6284 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LVLB9"
+		(shape bidirectional)
+		(at 170.18 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left)
+		)
+		(uuid "f0bf1af7-4313-4b45-bcea-71e50256546f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.7059 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -570,7 +614,7 @@
 			)
 			(justify left)
 		)
-		(uuid "9e651d31-2d99-4173-bae8-06d76bba5e3a")
+		(uuid "f4ac0393-0e24-4b99-8beb-9ac8876372c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 117.0273 99.06 0)
 			(effects
@@ -582,434 +626,6 @@
 			)
 		)
 	)
-	(global_label "ADC_TX"
-		(shape bidirectional)
-		(at 91.44 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right)
-		)
-		(uuid "a042d674-6403-467c-93f6-7c33a79f9143")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.7879 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ADC_RX"
-		(shape bidirectional)
-		(at 109.22 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "ce8dacc4-cc1a-4d8b-8764-3f675af96fa7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.1684 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pokeymax4-eagle-import:R-EU_R0402")
-		(at 137.16 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7610e5ea-f35f-401c-b164-a47957abecec")
-		(property "Reference" "R8"
-			(at 135.6614 118.11 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "3k3"
-			(at 140.462 118.11 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "pokeymax4:R0402"
-			(at 137.16 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 137.16 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 137.16 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C384338"
-			(at 137.16 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6a412d8a-6ff3-4df2-8720-595fc125a47d")
-		)
-		(pin "1"
-			(uuid "cdff3ef1-2b3f-40cb-8e72-fed02ba6e342")
-		)
-		(instances
-			(project "pokeymax4"
-				(path "/87a5706b-9c3d-497f-99bc-f4f71751dafe/f9ca6a04-648d-44ec-9e62-777033a1a0a9"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pokeymax4-eagle-import:C-EUC0402")
-		(at 109.22 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84886421-2c8f-41b2-9df7-94d2b3626775")
-		(property "Reference" "C7"
-			(at 110.744 91.059 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1nF"
-			(at 110.744 96.139 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "pokeymax4:C0402"
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C93920"
-			(at 109.22 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a9b27f84-67c3-4698-8d89-3a757dcd99ea")
-		)
-		(pin "1"
-			(uuid "e0b13a54-3756-4ed9-a77b-a648334d427b")
-		)
-		(instances
-			(project "pokeymax4"
-				(path "/87a5706b-9c3d-497f-99bc-f4f71751dafe/f9ca6a04-648d-44ec-9e62-777033a1a0a9"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pokeymax4-eagle-import:R-EU_R0402")
-		(at 137.16 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c386043-baf5-4104-854a-eb86b10c6072")
-		(property "Reference" "R9"
-			(at 135.6614 100.33 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "3k3"
-			(at 140.462 100.33 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "pokeymax4:R0402"
-			(at 137.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 137.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 137.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C384338"
-			(at 137.16 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ab17c1a0-a361-4bfc-a80f-047ebfc948af")
-		)
-		(pin "1"
-			(uuid "8ae1213e-3d9d-462c-b46f-42878cf27984")
-		)
-		(instances
-			(project "pokeymax4"
-				(path "/87a5706b-9c3d-497f-99bc-f4f71751dafe/f9ca6a04-648d-44ec-9e62-777033a1a0a9"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pokeymax4-eagle-import:R-EU_R0402")
-		(at 101.6 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8d303dbb-8111-431a-ab00-339259c0f26d")
-		(property "Reference" "R10"
-			(at 97.79 84.8614 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1k1"
-			(at 97.79 89.662 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "pokeymax4:R0402"
-			(at 101.6 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Position Offset" ""
-			(at 101.6 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 101.6 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C102771"
-			(at 101.6 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e95db5a-f432-468d-b934-9b62a0da2523")
-		)
-		(pin "2"
-			(uuid "49adde13-e610-4961-b071-c014a0313f18")
-		)
-		(instances
-			(project "pokeymax4"
-				(path "/87a5706b-9c3d-497f-99bc-f4f71751dafe/f9ca6a04-648d-44ec-9e62-777033a1a0a9"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "pokeymax4-eagle-import:C-EUC0402")
 		(at 185.42 106.68 90)
@@ -1018,7 +634,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ad77c6e9-8b8c-4977-a779-0087e80734d3")
+		(uuid "0a10190d-a8a7-4247-8b65-3f9aa8de19e2")
 		(property "Reference" "C12"
 			(at 185.039 105.156 0)
 			(effects
@@ -1064,7 +680,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Position Offset" ""
+		(property "LCSC Part #" "C12530"
 			(at 185.42 106.68 0)
 			(effects
 				(font
@@ -1073,8 +689,50 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" ""
-			(at 185.42 106.68 0)
+		(pin "2"
+			(uuid "d3a06a4d-803f-4514-a721-16fa05a854dc")
+		)
+		(pin "1"
+			(uuid "08060395-24f4-4e10-b287-15865efad587")
+		)
+		(instances
+			(project ""
+				(path "/e6275eb3-d183-4a15-8a8c-dffc95cf456c/e8be45a0-4998-451e-afc3-9e91d7af6ea6"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pokeymax4-eagle-import:C-EUC0402")
+		(at 109.22 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53d07bb6-19f5-4528-9e77-5ac66d6319b4")
+		(property "Reference" "C7"
+			(at 110.744 91.059 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1nF"
+			(at 110.744 96.139 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "pokeymax4:C0402"
+			(at 109.22 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,8 +740,26 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C452745"
-			(at 185.42 106.68 0)
+		(property "Datasheet" ""
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" " C1523"
+			(at 109.22 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,15 +768,249 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b2da124-23c0-4b1e-aa87-fa5aa9139b94")
+			(uuid "7b9fd42e-f5e6-481f-ae17-1efc39ea3746")
 		)
 		(pin "2"
-			(uuid "673cf394-1184-4cf9-9bf9-23b3a87eb352")
+			(uuid "4b154833-8656-473a-bcb3-83598324844d")
 		)
 		(instances
-			(project "pokeymax4"
-				(path "/87a5706b-9c3d-497f-99bc-f4f71751dafe/f9ca6a04-648d-44ec-9e62-777033a1a0a9"
-					(reference "C12")
+			(project ""
+				(path "/e6275eb3-d183-4a15-8a8c-dffc95cf456c/e8be45a0-4998-451e-afc3-9e91d7af6ea6"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pokeymax4-eagle-import:R-EU_R0402")
+		(at 137.16 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60e4c4a1-6093-446e-9d8c-dd30e36a81fd")
+		(property "Reference" "R8"
+			(at 135.6614 118.11 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3k3"
+			(at 140.462 118.11 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "pokeymax4:R0402"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25890"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b7f9873f-edbf-4578-85dc-7588f05edf2d")
+		)
+		(pin "1"
+			(uuid "3fddfdf7-5b5b-448e-9b2c-8b7804651a40")
+		)
+		(instances
+			(project ""
+				(path "/e6275eb3-d183-4a15-8a8c-dffc95cf456c/e8be45a0-4998-451e-afc3-9e91d7af6ea6"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pokeymax4-eagle-import:R-EU_R0402")
+		(at 137.16 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c40f5667-7c4a-4d7f-a25e-782cf7983722")
+		(property "Reference" "R9"
+			(at 135.6614 100.33 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "3k3"
+			(at 140.462 100.33 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "pokeymax4:R0402"
+			(at 137.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25890"
+			(at 137.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20c7f74f-f101-488e-b20e-ade8d4ef65a4")
+		)
+		(pin "2"
+			(uuid "b42a7cae-61ea-4413-8959-68fda444243d")
+		)
+		(instances
+			(project ""
+				(path "/e6275eb3-d183-4a15-8a8c-dffc95cf456c/e8be45a0-4998-451e-afc3-9e91d7af6ea6"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pokeymax4-eagle-import:R-EU_R0402")
+		(at 101.6 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d869ac66-81f4-4c05-953e-ef0cd420df16")
+		(property "Reference" "R10"
+			(at 97.79 84.8614 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "1k1"
+			(at 97.79 89.662 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "pokeymax4:R0402"
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25860"
+			(at 101.6 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af6a4558-7b30-4b6e-ba29-b719d427795b")
+		)
+		(pin "2"
+			(uuid "eb26a034-ea57-4c48-ba32-c1f82f1fc744")
+		)
+		(instances
+			(project ""
+				(path "/e6275eb3-d183-4a15-8a8c-dffc95cf456c/e8be45a0-4998-451e-afc3-9e91d7af6ea6"
+					(reference "R10")
 					(unit 1)
 				)
 			)

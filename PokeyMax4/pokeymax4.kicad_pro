@@ -74,6 +74,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -477,6 +478,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -541,20 +543,8 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB Part #",
-          "name": "JLCPCB Part #",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "JLCPCB Position Offset",
-          "name": "JLCPCB Position Offset",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "JLCPCB Rotation Offset",
-          "name": "JLCPCB Rotation Offset",
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
           "show": true
         }
       ],
@@ -605,35 +595,35 @@
   },
   "sheets": [
     [
-      "87a5706b-9c3d-497f-99bc-f4f71751dafe",
-      "Root"
+      "e6275eb3-d183-4a15-8a8c-dffc95cf456c",
+      ""
     ],
     [
-      "b931f0b5-7d10-4325-a72c-13a8b4fa7819",
+      "ffebd24f-75aa-4e21-be2c-b55208e79830",
       "IO"
     ],
     [
-      "f82c7dac-1450-41b0-9c38-aa6b53372410",
+      "7ef72fdc-db96-4316-aacb-30b112fc5f48",
       "FPGA"
     ],
     [
-      "4cf6bd91-9dbe-4eee-917e-8dfdf2533a16",
+      "3e77a693-684c-48ef-9687-a115f01e6e45",
       "Level conv"
     ],
     [
-      "4aa3c2e2-760a-4247-872a-34e2cbe4c787",
+      "d07a10f3-2e81-4d2c-913a-4eaea8e1e883",
       "Power regs"
     ],
     [
-      "b1f2a122-2397-41a3-8b99-07bc1887e79d",
+      "4b5fcc65-5340-4407-80e3-94270b1cc853",
       "Audio filter"
     ],
     [
-      "ef8a4b62-9a0f-47b7-ac2d-6e268b867a77",
+      "566e12f5-35e8-45bc-a895-c144e9c7cc42",
       "Decoupling"
     ],
     [
-      "f9ca6a04-648d-44ec-9e62-777033a1a0a9",
+      "e8be45a0-4998-451e-afc3-9e91d7af6ea6",
       "ADC"
     ]
   ],

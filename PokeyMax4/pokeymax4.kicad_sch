@@ -2,47 +2,9 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "87a5706b-9c3d-497f-99bc-f4f71751dafe")
+	(uuid "e6275eb3-d183-4a15-8a8c-dffc95cf456c")
 	(paper "A4")
 	(lib_symbols)
-	(sheet
-		(at 177.8 25.4)
-		(size 12.7 3.81)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4aa3c2e2-760a-4247-872a-34e2cbe4c787")
-		(property "Sheetname" "Power regs"
-			(at 177.8 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power_regs.kicad_sch"
-			(at 177.8 29.7946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "pokeymax4"
-				(path "/87a5706b-9c3d-497f-99bc-f4f71751dafe"
-					(page "4")
-				)
-			)
-		)
-	)
 	(sheet
 		(at 127 25.4)
 		(size 12.7 3.81)
@@ -54,7 +16,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "4cf6bd91-9dbe-4eee-917e-8dfdf2533a16")
+		(uuid "3e77a693-684c-48ef-9687-a115f01e6e45")
 		(property "Sheetname" "Level conv"
 			(at 127 24.6884 0)
 			(effects
@@ -75,7 +37,7 @@
 		)
 		(instances
 			(project "pokeymax4"
-				(path "/87a5706b-9c3d-497f-99bc-f4f71751dafe"
+				(path "/e6275eb3-d183-4a15-8a8c-dffc95cf456c"
 					(page "3")
 				)
 			)
@@ -92,7 +54,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "b1f2a122-2397-41a3-8b99-07bc1887e79d")
+		(uuid "4b5fcc65-5340-4407-80e3-94270b1cc853")
 		(property "Sheetname" "Audio filter"
 			(at 228.6 24.6884 0)
 			(effects
@@ -113,46 +75,8 @@
 		)
 		(instances
 			(project "pokeymax4"
-				(path "/87a5706b-9c3d-497f-99bc-f4f71751dafe"
+				(path "/e6275eb3-d183-4a15-8a8c-dffc95cf456c"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 25.4 25.4)
-		(size 12.7 3.81)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b931f0b5-7d10-4325-a72c-13a8b4fa7819")
-		(property "Sheetname" "IO"
-			(at 25.4 24.6884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "IO.kicad_sch"
-			(at 25.4 29.7946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "pokeymax4"
-				(path "/87a5706b-9c3d-497f-99bc-f4f71751dafe"
-					(page "1")
 				)
 			)
 		)
@@ -168,7 +92,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "ef8a4b62-9a0f-47b7-ac2d-6e268b867a77")
+		(uuid "566e12f5-35e8-45bc-a895-c144e9c7cc42")
 		(property "Sheetname" "Decoupling"
 			(at 25.4 75.4884 0)
 			(effects
@@ -189,7 +113,7 @@
 		)
 		(instances
 			(project "pokeymax4"
-				(path "/87a5706b-9c3d-497f-99bc-f4f71751dafe"
+				(path "/e6275eb3-d183-4a15-8a8c-dffc95cf456c"
 					(page "6")
 				)
 			)
@@ -206,7 +130,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "f82c7dac-1450-41b0-9c38-aa6b53372410")
+		(uuid "7ef72fdc-db96-4316-aacb-30b112fc5f48")
 		(property "Sheetname" "FPGA"
 			(at 76.2 24.6884 0)
 			(effects
@@ -227,8 +151,46 @@
 		)
 		(instances
 			(project "pokeymax4"
-				(path "/87a5706b-9c3d-497f-99bc-f4f71751dafe"
+				(path "/e6275eb3-d183-4a15-8a8c-dffc95cf456c"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 177.8 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d07a10f3-2e81-4d2c-913a-4eaea8e1e883")
+		(property "Sheetname" "Power regs"
+			(at 177.8 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_regs.kicad_sch"
+			(at 177.8 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pokeymax4"
+				(path "/e6275eb3-d183-4a15-8a8c-dffc95cf456c"
+					(page "4")
 				)
 			)
 		)
@@ -244,7 +206,7 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "f9ca6a04-648d-44ec-9e62-777033a1a0a9")
+		(uuid "e8be45a0-4998-451e-afc3-9e91d7af6ea6")
 		(property "Sheetname" "ADC"
 			(at 76.2 75.4884 0)
 			(effects
@@ -265,8 +227,46 @@
 		)
 		(instances
 			(project "pokeymax4"
-				(path "/87a5706b-9c3d-497f-99bc-f4f71751dafe"
+				(path "/e6275eb3-d183-4a15-8a8c-dffc95cf456c"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ffebd24f-75aa-4e21-be2c-b55208e79830")
+		(property "Sheetname" "IO"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO.kicad_sch"
+			(at 25.4 29.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pokeymax4"
+				(path "/e6275eb3-d183-4a15-8a8c-dffc95cf456c"
+					(page "1")
 				)
 			)
 		)

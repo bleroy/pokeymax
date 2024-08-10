@@ -1,3 +1,5 @@
 ﻿PokeyMax4/pokeymax4-backups
 PokeyMax4/production/backups
 .svn
+*.lck
+*.lck
