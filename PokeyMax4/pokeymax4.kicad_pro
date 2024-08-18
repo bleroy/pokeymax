@@ -546,6 +546,12 @@
           "label": "LCSC Part #",
           "name": "LCSC Part #",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Rotation Offset",
+          "name": "JLCPCB Rotation Offset",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -596,7 +602,7 @@
   "sheets": [
     [
       "e6275eb3-d183-4a15-8a8c-dffc95cf456c",
-      ""
+      "Root"
     ],
     [
       "ffebd24f-75aa-4e21-be2c-b55208e79830",

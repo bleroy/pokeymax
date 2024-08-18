@@ -226,7 +226,7 @@
 	)
 	(global_label "3V3"
 		(shape bidirectional)
-		(at 144.78 87.63 0)
+		(at 144.78 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -236,7 +236,7 @@
 		)
 		(uuid "eb3c7859-9510-4dd2-b431-8b71b9939c39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.2316 87.63 0)
+			(at 152.2316 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -301,6 +301,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25860"
+			(at 144.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 144.78 96.52 0)
 			(effects
 				(font
@@ -378,7 +387,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" " C25879"
+		(property "LCSC Part #" "C25879"
+			(at 144.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 144.78 114.3 0)
 			(effects
 				(font

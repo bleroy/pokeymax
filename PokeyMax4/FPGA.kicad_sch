@@ -7682,17 +7682,17 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 57.15 154.94 0)
+		(at 53.34 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "38d6299d-a760-48d8-bf15-80553be2111b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.9573 154.94 0)
+			(at 61.1473 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7770,17 +7770,17 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 121.92 121.92 0)
+		(at 111.76 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "3fd880d8-0ad4-4d56-8104-f8c7f50e9a73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.7273 121.92 0)
+			(at 119.5673 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,7 +7880,7 @@
 	)
 	(global_label "3V3"
 		(shape bidirectional)
-		(at 101.6 154.94 0)
+		(at 109.22 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7890,7 +7890,7 @@
 		)
 		(uuid "4d514146-2455-4ee8-8294-a67ee754fc43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.0516 154.94 0)
+			(at 116.6716 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8342,7 +8342,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 101.6 152.4 0)
+		(at 106.68 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8352,7 +8352,7 @@
 		)
 		(uuid "9dd7a7f6-9701-4f3e-9c7e-25de5bb4df89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.4073 152.4 0)
+			(at 114.4873 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8892,13 +8892,13 @@
 	)
 	(global_label "2V5"
 		(shape bidirectional)
-		(at 58.42 152.4 0)
+		(at 58.42 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "fbcad8a5-c04f-4fab-b729-f0b4e06a11b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
@@ -9041,6 +9041,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 127 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95c0e177-c30b-4320-98ae-6b0db493a919")
 		)
@@ -9111,6 +9120,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 99.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 99.06 106.68 0)
 			(effects
 				(font
@@ -9197,6 +9215,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 127 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2aaa6384-4374-40ca-b4e4-ae9bbb1b418f")
 		)
@@ -9275,6 +9302,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f122638e-e039-44c1-9d62-ff296f43f4c1")
 		)
@@ -9344,7 +9380,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1521934"
+		(property "LCSC Part #" "C1521935"
+			(at 208.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 208.28 99.06 0)
 			(effects
 				(font
@@ -9874,7 +9919,7 @@
 		(at 73.66 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "20f95970-a008-477b-9f26-66b895928516")
@@ -9924,7 +9969,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2913924"
+		(property "LCSC Part #" ""
+			(at 73.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 73.66 71.12 0)
 			(effects
 				(font
@@ -10023,6 +10077,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" "270"
+			(at 58.42 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15b4f0d4-c6df-4304-ad31-11a28b06627b")
 		)
@@ -10056,7 +10119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80255b36-4bad-424a-be97-a788fa03fd29")
-		(property "Reference" "#GND24"
+		(property "Reference" "#GND024"
 			(at 25.4 185.42 0)
 			(effects
 				(font
@@ -10107,7 +10170,7 @@
 		(instances
 			(project ""
 				(path "/e6275eb3-d183-4a15-8a8c-dffc95cf456c/7ef72fdc-db96-4316-aacb-30b112fc5f48"
-					(reference "#GND24")
+					(reference "#GND024")
 					(unit 1)
 				)
 			)
@@ -10168,6 +10231,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 99.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 99.06 104.14 0)
 			(effects
 				(font
@@ -10246,7 +10318,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1179056"
+		(property "LCSC Part #" "C7431354"
+			(at 55.88 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 55.88 177.8 0)
 			(effects
 				(font
@@ -10339,6 +10420,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d234c596-47d7-4c07-9232-cb80fcb2ab2a")
 		)
@@ -10363,7 +10453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac731a1c-c877-438d-94bb-89b992d64181")
-		(property "Reference" "#GND29"
+		(property "Reference" "#GND029"
 			(at 127 60.96 0)
 			(effects
 				(font
@@ -10414,7 +10504,7 @@
 		(instances
 			(project ""
 				(path "/e6275eb3-d183-4a15-8a8c-dffc95cf456c/7ef72fdc-db96-4316-aacb-30b112fc5f48"
-					(reference "#GND29")
+					(reference "#GND029")
 					(unit 1)
 				)
 			)
@@ -10476,6 +10566,15 @@
 			)
 		)
 		(property "LCSC Part #" "C710330"
+			(at 96.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 96.52 119.38 0)
 			(effects
 				(font

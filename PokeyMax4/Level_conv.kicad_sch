@@ -4035,16 +4035,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 139.7) (xy 238.76 139.7)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "346d93d7-6393-45a4-abb5-d659669bd970")
-	)
-	(wire
-		(pts
 			(xy 88.9 104.14) (xy 78.74 104.14)
 		)
 		(stroke
@@ -4645,6 +4635,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 104.14) (xy 223.52 124.46)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "67f02722-519e-4bb5-8d38-75e611fb1539")
+	)
+	(wire
+		(pts
 			(xy 248.92 60.96) (xy 243.84 60.96)
 		)
 		(stroke
@@ -4862,6 +4862,16 @@
 			(type solid)
 		)
 		(uuid "7b648429-4e28-495a-b6d3-4c86bdb7fd75")
+	)
+	(wire
+		(pts
+			(xy 238.76 139.7) (xy 246.38 139.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7eb0043f-0724-4a8f-9262-08e693e07cce")
 	)
 	(wire
 		(pts
@@ -5692,16 +5702,6 @@
 			(type solid)
 		)
 		(uuid "c692c31f-6aa0-48b8-9201-a36812f1c209")
-	)
-	(wire
-		(pts
-			(xy 223.52 104.14) (xy 223.52 124.46)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c7eac46b-378a-4e26-8a36-91c6e6e9a1f5")
 	)
 	(wire
 		(pts
@@ -7487,13 +7487,13 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 218.44 55.88 0)
+		(at 218.44 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "009ad9e4-f735-4fd0-927f-9bda6cf8ff71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
@@ -7641,17 +7641,17 @@
 	)
 	(global_label "AUD_IN"
 		(shape bidirectional)
-		(at 240.03 139.7 0)
+		(at 238.76 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "130a1abf-6b4e-4f27-b5a5-c3b250f723b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.5044 139.7 0)
+			(at 249.2344 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7663,13 +7663,13 @@
 	)
 	(global_label "3V3"
 		(shape bidirectional)
-		(at 35.56 63.5 0)
+		(at 35.56 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "13418999-cf95-4d30-959d-cda05cc905f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
@@ -7993,7 +7993,7 @@
 	)
 	(global_label "AUDF1"
 		(shape bidirectional)
-		(at 254 63.5 0)
+		(at 259.08 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8003,7 +8003,7 @@
 		)
 		(uuid "56486778-84a1-4c00-b911-dea2a9b3417b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.8816 63.5 0)
+			(at 268.9616 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +8169,7 @@
 	)
 	(global_label "5V0"
 		(shape bidirectional)
-		(at 223.52 121.92 0)
+		(at 223.52 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8179,7 +8179,7 @@
 		)
 		(uuid "89580397-26cc-44ce-9ef9-357409d20840")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.9716 121.92 0)
+			(at 230.9716 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,7 +8279,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 81.28 63.5 0)
+		(at 86.36 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8289,7 +8289,7 @@
 		)
 		(uuid "972a357a-edce-4e72-98ba-1ac7fe326b1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.0873 63.5 0)
+			(at 94.1673 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8543,7 +8543,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 167.64 68.58 0)
+		(at 172.72 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8553,7 +8553,7 @@
 		)
 		(uuid "dd217d40-aff5-48dc-94dc-9d257a63681f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.4473 68.58 0)
+			(at 180.5273 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8609,13 +8609,13 @@
 	)
 	(global_label "3V3"
 		(shape bidirectional)
-		(at 121.92 68.58 0)
+		(at 121.92 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e870c6be-3af9-46d0-90d0-103a71850c5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
@@ -8859,7 +8859,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2653275"
+		(property "LCSC Part #" "C2674751"
+			(at 154.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "90"
 			(at 154.94 99.06 0)
 			(effects
 				(font
@@ -9047,7 +9056,7 @@
 		(at 248.92 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "af3b89db-84c8-4e9f-a96d-02e1adac6321")
@@ -9098,6 +9107,15 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 248.92 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 248.92 134.62 0)
 			(effects
 				(font
@@ -9199,7 +9217,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2653275"
+		(property "LCSC Part #" "C2674751"
+			(at 68.58 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "270"
 			(at 68.58 93.98 0)
 			(effects
 				(font
@@ -9387,7 +9414,7 @@
 		(at 236.22 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fe2a0a94-6a06-4784-9746-0760e9bf2f4b")
@@ -9438,6 +9465,15 @@
 			)
 		)
 		(property "LCSC Part #" ""
+			(at 236.22 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 236.22 78.74 0)
 			(effects
 				(font

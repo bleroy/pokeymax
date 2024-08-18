@@ -826,7 +826,7 @@
 	)
 	(global_label "3V3"
 		(shape bidirectional)
-		(at 213.36 91.44 0)
+		(at 220.98 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -836,7 +836,7 @@
 		)
 		(uuid "40835da1-a613-452b-8b14-ed4421628796")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.8116 91.44 0)
+			(at 228.4316 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -848,17 +848,17 @@
 	)
 	(global_label "5V0"
 		(shape bidirectional)
-		(at 101.6 91.44 0)
+		(at 73.66 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "58a1edc7-8821-462c-903c-8c4f53dc49fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.0516 91.44 0)
+			(at 81.1116 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,7 +944,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C20616175"
+		(property "LCSC Part #" "C216157"
+			(at 180.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 180.34 91.44 0)
 			(effects
 				(font
@@ -1031,6 +1040,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Rotation Offset" ""
+			(at 93.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1566baf6-c2a4-4921-823d-951fc7f1fd74")
 		)
@@ -1103,6 +1121,15 @@
 			)
 		)
 		(property "LCSC Part #" "C398923"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "270"
 			(at 129.54 91.44 0)
 			(effects
 				(font
@@ -1193,6 +1220,15 @@
 			)
 		)
 		(property "LCSC Part #" " C23733"
+			(at 198.12 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" ""
 			(at 198.12 96.52 0)
 			(effects
 				(font
