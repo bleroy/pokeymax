@@ -3595,16 +3595,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 63.5) (xy 251.46 63.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "080865d2-86eb-4535-8596-2807686a44f1")
-	)
-	(wire
-		(pts
 			(xy 238.76 132.08) (xy 246.38 132.08)
 		)
 		(stroke
@@ -4293,16 +4283,6 @@
 		)
 		(uuid "455d0717-95c1-4643-9faf-9c83487ae14d")
 	)
-	(wire
-		(pts
-			(xy 223.52 99.06) (xy 223.52 101.6)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "457c6f04-c80f-464d-9a94-ee618c615fa8")
-	)
 	(bus
 		(pts
 			(xy 177.8 86.36) (xy 177.8 88.9)
@@ -4635,16 +4615,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 104.14) (xy 223.52 124.46)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "67f02722-519e-4bb5-8d38-75e611fb1539")
-	)
-	(wire
-		(pts
 			(xy 248.92 60.96) (xy 243.84 60.96)
 		)
 		(stroke
@@ -4732,16 +4702,6 @@
 			(type solid)
 		)
 		(uuid "70eb9c75-9b67-4e31-91d4-fd084cadee74")
-	)
-	(wire
-		(pts
-			(xy 223.52 96.52) (xy 223.52 99.06)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "70fe312c-8cb8-44dc-a66b-67268ca5e945")
 	)
 	(bus
 		(pts
@@ -5673,16 +5633,6 @@
 		)
 		(uuid "c3347f59-528b-4d16-a387-2a6eca879977")
 	)
-	(wire
-		(pts
-			(xy 223.52 101.6) (xy 223.52 104.14)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c4d9d2ef-3bc6-4373-b44c-71588aa58955")
-	)
 	(bus
 		(pts
 			(xy 251.46 86.36) (xy 251.46 88.9)
@@ -5702,16 +5652,6 @@
 			(type solid)
 		)
 		(uuid "c692c31f-6aa0-48b8-9201-a36812f1c209")
-	)
-	(wire
-		(pts
-			(xy 228.6 96.52) (xy 223.52 96.52)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c9a31812-75da-4274-add1-46c840e7c862")
 	)
 	(wire
 		(pts
@@ -5845,16 +5785,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 63.5) (xy 259.08 63.5)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d4e2bf33-ce8b-4c56-abc0-40f615a3813d")
-	)
-	(wire
-		(pts
 			(xy 88.9 119.38) (xy 78.74 119.38)
 		)
 		(stroke
@@ -5982,16 +5912,6 @@
 			(type solid)
 		)
 		(uuid "df88d6e0-b19c-4ea8-b19d-ae313dde579c")
-	)
-	(wire
-		(pts
-			(xy 228.6 55.88) (xy 218.44 55.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "dfe9686a-dbdc-4c96-a583-ed6d683c2b34")
 	)
 	(wire
 		(pts
@@ -7487,7 +7407,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 218.44 55.88 180)
+		(at 228.6 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7497,7 +7417,7 @@
 		)
 		(uuid "009ad9e4-f735-4fd0-927f-9bda6cf8ff71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.2473 55.88 0)
+			(at 236.4073 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7993,7 +7913,7 @@
 	)
 	(global_label "AUDF1"
 		(shape bidirectional)
-		(at 259.08 63.5 0)
+		(at 243.84 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8003,7 +7923,7 @@
 		)
 		(uuid "56486778-84a1-4c00-b911-dea2a9b3417b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.9616 63.5 0)
+			(at 253.7216 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,22 +8089,22 @@
 	)
 	(global_label "5V0"
 		(shape bidirectional)
-		(at 223.52 124.46 0)
+		(at 228.6 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "89580397-26cc-44ce-9ef9-357409d20840")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.9716 124.46 0)
+			(at 221.1484 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8868,7 +8788,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
+		(property "JLCPCB Rotation Offset" "270"
 			(at 154.94 99.06 0)
 			(effects
 				(font

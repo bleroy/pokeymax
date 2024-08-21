@@ -1085,6 +1085,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 104.14) (xy 185.42 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "100445d8-8e78-42bc-9a4a-2055f5a23564")
+	)
+	(wire
+		(pts
 			(xy 71.12 91.44) (xy 71.12 88.9)
 		)
 		(stroke
@@ -1175,7 +1185,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 101.6) (xy 203.2 101.6)
+			(xy 185.42 104.14) (xy 203.2 104.14)
 		)
 		(stroke
 			(width 0.1524)
@@ -1222,16 +1232,6 @@
 			(type solid)
 		)
 		(uuid "371d0b6a-8bb3-4b61-b2fe-76854e320a1c")
-	)
-	(wire
-		(pts
-			(xy 226.06 104.14) (xy 215.9 104.14)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3e1a4531-40ac-417d-96ab-72e779e0ac57")
 	)
 	(wire
 		(pts
@@ -1445,16 +1445,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 88.9) (xy 187.96 88.9)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "855e69ce-9757-468c-a2e5-6d3007a3b5f0")
-	)
-	(wire
-		(pts
 			(xy 132.08 152.4) (xy 111.76 152.4)
 		)
 		(stroke
@@ -1615,7 +1605,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 101.6) (xy 210.82 101.6)
+			(xy 210.82 104.14) (xy 226.06 104.14)
 		)
 		(stroke
 			(width 0.1524)
@@ -1705,16 +1695,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 86.36) (xy 180.34 86.36)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e4ae57cd-b18e-4d0e-b92f-80efb20ee32a")
-	)
-	(wire
-		(pts
 			(xy 101.6 142.24) (xy 132.08 142.24)
 		)
 		(stroke
@@ -1775,16 +1755,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 104.14) (xy 215.9 101.6)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f986b070-5e6a-4282-a197-e798efeddb5b")
-	)
-	(wire
-		(pts
 			(xy 190.5 99.06) (xy 190.5 58.42)
 		)
 		(stroke
@@ -1804,7 +1774,7 @@
 		(uuid "fd0fa1ae-a930-41ba-abf3-2b6323dfc050")
 	)
 	(label "AUDF4"
-		(at 213.36 101.6 0)
+		(at 213.36 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1871,7 +1841,7 @@
 	)
 	(global_label "5V0"
 		(shape bidirectional)
-		(at 187.96 86.36 0)
+		(at 180.34 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1881,7 +1851,7 @@
 		)
 		(uuid "2092e9dd-2ea5-4fd0-aa83-354d8662029c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.4116 86.36 0)
+			(at 187.7916 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +1863,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 187.96 88.9 0)
+		(at 180.34 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1903,7 +1873,7 @@
 		)
 		(uuid "330d765a-d775-4ee0-a5a4-ac19722a0f2e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.7673 88.9 0)
+			(at 188.1473 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,7 +1907,7 @@
 	)
 	(global_label "AUDF1"
 		(shape bidirectional)
-		(at 187.96 93.98 0)
+		(at 195.58 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1947,7 +1917,7 @@
 		)
 		(uuid "6e0490e8-0f34-41f1-a234-2afafbbc8dfd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.8416 93.98 0)
+			(at 205.4616 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +2678,7 @@
 	)
 	(symbol
 		(lib_id "pokeymax4-eagle-import:C-EUC0402")
-		(at 205.74 101.6 90)
+		(at 205.74 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2716,7 +2686,7 @@
 		(dnp no)
 		(uuid "674e077d-54a8-4285-8448-34b185297a73")
 		(property "Reference" "C3"
-			(at 205.359 100.076 0)
+			(at 205.486 108.204 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -2725,7 +2695,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 210.439 100.076 0)
+			(at 210.82 111.506 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -2734,7 +2704,7 @@
 			)
 		)
 		(property "Footprint" "pokeymax4:C0402"
-			(at 205.74 101.6 0)
+			(at 205.74 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,7 +2713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 101.6 0)
+			(at 205.74 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2752,7 +2722,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 101.6 0)
+			(at 205.74 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2761,7 +2731,7 @@
 			)
 		)
 		(property "LCSC Part #" "C12530"
-			(at 205.74 101.6 0)
+			(at 205.74 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2770,7 +2740,7 @@
 			)
 		)
 		(property "JLCPCB Rotation Offset" ""
-			(at 205.74 101.6 0)
+			(at 205.74 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
