@@ -5,3 +5,4 @@ PokeyMax4/production/backups
 *.lck
 **/_autosave-*
 PokeyMax4/#auto_saved_files#
+**/*-backups
