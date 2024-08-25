@@ -822,7 +822,7 @@
 		(path "/e8be45a0-4998-451e-afc3-9e91d7af6ea6/5619f945-e619-475b-87ff-8b847ef55ec1")
 		(sheetname "ADC")
 		(sheetfile "ADC.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(layer "F.Fab")
@@ -4032,7 +4032,7 @@
 		(path "/4b5fcc65-5340-4407-80e3-94270b1cc853/228e8638-3a3c-42c8-9988-c2f6b9486e31")
 		(sheetname "Audio filter")
 		(sheetfile "Audio_filter.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.016 6.096)
 			(end 1.016 6.096)
@@ -4042,6 +4042,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "c4dd4aa8-aa67-4a9a-8bcc-8a35292800ff")
+		)
+		(fp_line
+			(start 1.016 -1.3272)
+			(end 1.016 6.096)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e7c2e638-a5d3-47b7-b25c-851fe4800a6f")
 		)
 		(fp_line
 			(start -1.016 -1.7272)
@@ -4055,7 +4065,7 @@
 		)
 		(fp_line
 			(start -1.016 -1.7272)
-			(end 1.016 -1.7272)
+			(end 0.616 -1.7272)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -4064,14 +4074,14 @@
 			(uuid "c0939052-209f-48a1-9920-c604cb48f615")
 		)
 		(fp_line
-			(start 1.016 -1.7272)
-			(end 1.016 6.096)
+			(start 0.616 -1.7272)
+			(end 1.016 -1.3272)
 			(stroke
 				(width 0.12)
-				(type solid)
+				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e7c2e638-a5d3-47b7-b25c-851fe4800a6f")
+			(uuid "ac54d1d1-6d84-42af-94e1-d0f45a4bfbe8")
 		)
 		(fp_line
 			(start -1.8 6.85)
@@ -4303,7 +4313,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
+		(property "JLCPCB Rotation Offset" "270"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

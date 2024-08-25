@@ -58,7 +58,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|147097084|78270001|30133a67-a8bb-4929-8c31-d60139eda427|17cca75a-eab5-45b0-a8a1-19b391ed2811",
+        "courtyards_overlap|148090001|81560001|30133a67-a8bb-4929-8c31-d60139eda427|909e7597-6100-4d23-9e80-1095f8e1df9c",
+        "courtyards_overlap|149950001|81590001|30133a67-a8bb-4929-8c31-d60139eda427|05b300f9-4f46-42f1-977d-41c57f42f0bf",
+        "courtyards_overlap|149979999|87630001|3d9a452f-fed4-41fe-beaf-af9d39e6aed5|a9110821-468f-4ac4-9887-32f2fa18f2ab",
+        "courtyards_overlap|155026254|81570001|30133a67-a8bb-4929-8c31-d60139eda427|8f2a318f-f578-4a21-b40c-49acd4cb62a1",
+        "solder_mask_bridge|144030000|130100000|4dba7475-b1ea-43e4-bfc9-1aa9ee608e91|7fcc733d-47d5-478d-8985-bac3dde3206e",
+        "solder_mask_bridge|144230000|129360000|d75de1b1-d034-46c5-990a-c1b56beadc11|8b1887dd-268e-47b5-933f-e10ae188f6fd",
+        "solder_mask_bridge|144530000|130100000|7fcc733d-47d5-478d-8985-bac3dde3206e|31a4a26f-3781-40d7-b8dc-7baf5d92dcec",
+        "solder_mask_bridge|144730000|129360000|437600db-4eb6-4a2a-8e8f-9186e5bc4181|d75de1b1-d034-46c5-990a-c1b56beadc11",
+        "solder_mask_bridge|144730000|129389988|437600db-4eb6-4a2a-8e8f-9186e5bc4181|31a4a26f-3781-40d7-b8dc-7baf5d92dcec",
+        "solder_mask_bridge|149149000|128794500|428161c0-e1b8-435f-a652-3ba73c6d9cf0|82a2c588-a7b8-4173-b335-dba168c44ac6",
+        "solder_mask_bridge|149657000|127905500|6f89c941-1195-4f4a-9da2-9c8fca9dcf8c|82a2c588-a7b8-4173-b335-dba168c44ac6",
+        "solder_mask_bridge|149657000|128794500|34d031c3-bc12-4ca1-8ad2-d7c6ff725efb|82a2c588-a7b8-4173-b335-dba168c44ac6",
+        "starved_thermal|143550000|117780000|78a5ce10-6e95-44b4-baa9-8b8509c4272c|06011942-49dc-410d-af3c-5de039e81418|F.Cu",
+        "starved_thermal|151125000|128355000|78a5ce10-6e95-44b4-baa9-8b8509c4272c|2c95f8d6-815b-4e7a-8bde-c40ffc421a3a|F.Cu",
+        "starved_thermal|154275000|123035000|78a5ce10-6e95-44b4-baa9-8b8509c4272c|58928534-da08-406b-9a70-029d3ead5c7d|F.Cu"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2

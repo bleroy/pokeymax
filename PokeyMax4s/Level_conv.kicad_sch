@@ -4656,7 +4656,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Rotation Offset" "90"
+		(property "JLCPCB Rotation Offset" "270"
 			(at 166.37 82.55 0)
 			(effects
 				(font
