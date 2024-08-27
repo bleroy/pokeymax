@@ -1535,7 +1535,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 106.68) (xy 241.3 106.68)
+			(xy 233.68 106.68) (xy 238.76 106.68)
 		)
 		(stroke
 			(width 0.1524)
@@ -1819,7 +1819,7 @@
 	)
 	(global_label "LVLA21"
 		(shape bidirectional)
-		(at 241.3 106.68 0)
+		(at 238.76 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1829,7 +1829,7 @@
 		)
 		(uuid "160ab19d-df75-4686-9d35-28db2621cb38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.8334 106.68 0)
+			(at 249.2934 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

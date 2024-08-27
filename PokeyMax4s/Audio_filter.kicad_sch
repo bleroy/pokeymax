@@ -1784,7 +1784,7 @@
 		)
 		(uuid "fd0fa1ae-a930-41ba-abf3-2b6323dfc050")
 	)
-	(label "AUDF4"
+	(label "LEFT"
 		(at 219.71 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1795,7 +1795,7 @@
 		)
 		(uuid "032f5c41-816d-4b6f-85f0-521ba49109b5")
 	)
-	(label "AUDF3"
+	(label "RIGHT"
 		(at 219.71 104.14 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1828,7 +1828,7 @@
 			)
 		)
 	)
-	(global_label "LVLA21"
+	(global_label "DIGITAL_AUDIO_OUT"
 		(shape bidirectional)
 		(at 226.06 106.68 270)
 		(fields_autoplaced yes)

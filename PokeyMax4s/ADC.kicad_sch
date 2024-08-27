@@ -641,7 +641,7 @@
 			)
 		)
 	)
-	(global_label "AUD_IN"
+	(global_label "GTIA15"
 		(shape bidirectional)
 		(at 208.28 106.68 0)
 		(fields_autoplaced yes)
@@ -922,7 +922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Audio_in"
+		(property "Value" "GTIA 15"
 			(at 202.7682 103.4471 90)
 			(effects
 				(font
