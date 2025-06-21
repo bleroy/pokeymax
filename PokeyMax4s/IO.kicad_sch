@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "b7655b67-aeec-4c58-b62f-5529f7f67fbb")
 	(paper "A4")
 	(lib_symbols
@@ -89,7 +89,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -0.889) (xy 2.54 0.889)
+						(xy 2.54 0.889) (xy -2.54 0.889)
 					)
 					(stroke
 						(width 0.254)
@@ -101,7 +101,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0.889) (xy -2.54 0.889)
+						(xy 2.54 -0.889) (xy 2.54 0.889)
 					)
 					(stroke
 						(width 0.254)
@@ -148,6 +148,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(wire

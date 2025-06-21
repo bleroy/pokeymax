@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a67d4fea-7cce-43ef-8d8a-68b50cb41279")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -81,6 +83,17 @@
 				)
 			)
 			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 1.27 0) (xy 0.8636 0)
@@ -91,17 +104,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(pin passive line
@@ -123,6 +125,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pokeymax4-eagle-import:C-EUC0402"
 			(exclude_from_sim no)
@@ -183,17 +186,6 @@
 			)
 			(symbol "C-EUC0402_1_0"
 				(rectangle
-					(start -2.032 -2.032)
-					(end 2.032 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start -2.032 -1.016)
 					(end 2.032 -0.508)
 					(stroke
@@ -204,9 +196,20 @@
 						(type outline)
 					)
 				)
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -2.032)
+						(xy 0 0) (xy 0 -0.508)
 					)
 					(stroke
 						(width 0.1524)
@@ -218,7 +221,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -0.508)
+						(xy 0 -2.54) (xy 0 -2.032)
 					)
 					(stroke
 						(width 0.1524)
@@ -265,6 +268,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pokeymax4-eagle-import:R-EU_R0402"
 			(exclude_from_sim no)
@@ -350,7 +354,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -0.889) (xy 2.54 0.889)
+						(xy 2.54 0.889) (xy -2.54 0.889)
 					)
 					(stroke
 						(width 0.254)
@@ -362,7 +366,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0.889) (xy -2.54 0.889)
+						(xy 2.54 -0.889) (xy 2.54 0.889)
 					)
 					(stroke
 						(width 0.254)
@@ -409,7 +413,30 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "ADC IN BIAS"
+		(exclude_from_sim no)
+		(at 147.32 99.06 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "4337f36c-860d-40e2-91b6-63c9b03c276a")
+	)
+	(text "FPGA ADC support"
+		(exclude_from_sim no)
+		(at 86.36 106.68 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "df4219cd-d160-47c4-b81f-32bcd89e8828")
 	)
 	(junction
 		(at 182.88 106.68)
@@ -552,28 +579,6 @@
 			(type solid)
 		)
 		(uuid "ff37a260-3516-4577-b5cb-49762616f84a")
-	)
-	(text "ADC IN BIAS"
-		(exclude_from_sim no)
-		(at 147.32 99.06 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "4337f36c-860d-40e2-91b6-63c9b03c276a")
-	)
-	(text "FPGA ADC support"
-		(exclude_from_sim no)
-		(at 86.36 106.68 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "df4219cd-d160-47c4-b81f-32bcd89e8828")
 	)
 	(global_label "ADC_TX"
 		(shape bidirectional)

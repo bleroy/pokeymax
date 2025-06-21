@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "99d8d1fd-efb8-4556-bd00-4aa4ce215686")
 	(paper "A4")
 	(lib_symbols
@@ -64,17 +64,6 @@
 			)
 			(symbol "C-EUC0402_1_0"
 				(rectangle
-					(start -2.032 -2.032)
-					(end 2.032 -1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start -2.032 -1.016)
 					(end 2.032 -0.508)
 					(stroke
@@ -85,9 +74,20 @@
 						(type outline)
 					)
 				)
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -2.032)
+						(xy 0 0) (xy 0 -0.508)
 					)
 					(stroke
 						(width 0.1524)
@@ -99,7 +99,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -0.508)
+						(xy 0 -2.54) (xy 0 -2.032)
 					)
 					(stroke
 						(width 0.1524)
@@ -146,6 +146,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pokeymax4-eagle-import:LQM2HPN1R0MJ0L"
 			(exclude_from_sim no)
@@ -207,8 +208,8 @@
 			(symbol "LQM2HPN1R0MJ0L_1_0"
 				(arc
 					(start -3.81 1.27)
-					(mid -4.708 0.898)
-					(end -5.08 0)
+					(mid -2.912 0.898)
+					(end -2.54 0)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -218,8 +219,8 @@
 					)
 				)
 				(arc
-					(start -2.54 0)
-					(mid -2.912 0.898)
+					(start -5.08 0)
+					(mid -4.708 0.898)
 					(end -3.81 1.27)
 					(stroke
 						(width 0.254)
@@ -231,31 +232,7 @@
 				)
 				(arc
 					(start -1.27 1.27)
-					(mid -2.168 0.898)
-					(end -2.54 0)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
 					(mid -0.372 0.898)
-					(end -1.27 1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.27 1.27)
-					(mid 0.372 0.898)
 					(end 0 0)
 					(stroke
 						(width 0.254)
@@ -266,8 +243,20 @@
 					)
 				)
 				(arc
-					(start 2.54 0)
-					(mid 2.168 0.898)
+					(start -2.54 0)
+					(mid -2.168 0.898)
+					(end -1.27 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.372 0.898)
 					(end 1.27 1.27)
 					(stroke
 						(width 0.254)
@@ -278,8 +267,8 @@
 					)
 				)
 				(arc
-					(start 3.81 1.27)
-					(mid 2.912 0.898)
+					(start 1.27 1.27)
+					(mid 2.168 0.898)
 					(end 2.54 0)
 					(stroke
 						(width 0.254)
@@ -290,9 +279,21 @@
 					)
 				)
 				(arc
-					(start 5.08 0)
-					(mid 4.708 0.898)
+					(start 2.54 0)
+					(mid 2.912 0.898)
 					(end 3.81 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.81 1.27)
+					(mid 4.708 0.898)
+					(end 5.08 0)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -338,6 +339,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pokeymax4-eagle-import:TPS62237DRYR"
 			(exclude_from_sim no)
@@ -401,18 +403,6 @@
 			(symbol "TPS62237DRYR_1_0"
 				(polyline
 					(pts
-						(xy 7.62 -20.32) (xy 33.02 -20.32)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 7.62 5.08) (xy 7.62 -20.32)
 					)
 					(stroke
@@ -425,7 +415,7 @@
 				)
 				(polyline
 					(pts
-						(xy 33.02 -20.32) (xy 33.02 5.08)
+						(xy 7.62 -20.32) (xy 33.02 -20.32)
 					)
 					(stroke
 						(width 0.1524)
@@ -447,76 +437,16 @@
 						(type none)
 					)
 				)
-				(pin input line
-					(at 2.54 -5.08 0)
-					(length 5.08)
-					(name "MODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+				(polyline
+					(pts
+						(xy 33.02 -20.32) (xy 33.02 5.08)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(stroke
+						(width 0.1524)
+						(type solid)
 					)
-				)
-				(pin output line
-					(at 38.1 0 180)
-					(length 5.08)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -15.24 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 38.1 -10.16 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+					(fill
+						(type none)
 					)
 				)
 				(pin input line
@@ -555,7 +485,80 @@
 						)
 					)
 				)
+				(pin input line
+					(at 2.54 -5.08 0)
+					(length 5.08)
+					(name "MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -15.24 0)
+					(length 5.08)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 38.1 0 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
