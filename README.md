@@ -1,3 +1,19 @@
+# This repo is somewhat obsolete
+
+I created this repo when Foft first released his design of the PokeyMax 4 board publicly.
+I did so at the time because the design was still in Eagle format and somewhat difficult to keep track of.
+I took the design, imported it to KiCad and published it here as a git repo.
+I also took a stab at redesigning the board to bring the price down as much as possible (that's the 4s version of the board).
+
+A lot has happened since.
+Foft released multiple revisions of the board and HDL files, and quite a few people have built their own boards.
+He's now using KiCad, so no more Eagle.
+He also started working on a 4.5 revision as well as on several new designs, including the PokeyMin that uses a smaller FPGA version and resistors instead of level shifters.
+That last design pretty much makes 4s obsolete and little more than a curiosity. For me, it was a nice exercise in designing such a small board.
+
+In other words, nobody except maybe me should use the files on this repo. Instead, head over to Foft's site and download the latest files from there:
+http://www.64kib.com/atarixlfpga_svn/trunk/atari_800xl/atari_chips/hardware/
+
 # PokeyMax 4
 
 Foft's public designs for PokeyMax.
